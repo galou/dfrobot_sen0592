@@ -1,0 +1,5 @@
+idf_component_register(
+  SRCS "src/improv.cpp"
+  INCLUDE_DIRS "src"
+  REQUIRES ${ESPHOME_PROJECT_MANAGED_COMPONENTS} ${ESPHOME_PROJECT_BUILTIN_COMPONENTS}
+)
