@@ -48,8 +48,6 @@ sensor:
     unit_of_measurement: "mm"
     accuracy_decimals: 0
 
-
-
 wifi:
   reboot_timeout: 15min
   output_power: 15dB
@@ -61,7 +59,6 @@ wifi:
     subnet: 255.255.255.0
     dns1: 8.8.8.8
 
-  
 captive_portal:
 
 improv_serial:
@@ -81,3 +78,4 @@ ota:
 web_server:
   include_internal: false
   version: 3
+
